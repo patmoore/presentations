@@ -1,0 +1,47 @@
+.step {
+  width: 900px;
+  height: 700px; }
+  .step .center {
+    vertical-align: middle; }
+  .step div, .step img, .step h1 {
+    text-align: center; }
+  .step .inline {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; }
+  .step code {
+    font-size: 24px;
+    font-family: Courier New; }
+  .step .phone {
+    font-size: smaller; }
+
+.big {
+  font-size: 250px;
+  line-height: 250px; }
+
+.medium {
+  font-size: 120px;
+  line-height: 120px; }
+
+.smaller {
+  font-size: smaller; }
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  /* width and height can be anything, as long as they're equal */
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  position: relative;
+  display: inline-block; }
+  .circle .text {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 150px;
+    position: relative;
+    top: 10%; }
